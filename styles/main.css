@@ -1,0 +1,105 @@
+
+html{
+
+}
+
+/*main.css/*
+style{
+	<!--
+#outerWrapper { margin: 10px auto 10px auto; 
+width: 740px; 
+border: 1px solid #441B10; 
+padding: 10px; 
+background-color: #f8faef; } 
+-->
+main.css*/
+body {
+  margin: 0;
+  padding: 0;
+	background-color: #FFE4B5;
+}
+
+#tabs {
+	float:left;
+	width:100%;
+	background:#F9F7F3;
+	font-size:93%;
+	line-height:normal;
+	border-bottom:1px solid #C2BDAE;
+	}
+
+#tabs ul {
+	margin:0;
+	padding:10px 10px 0 50px;
+	list-style:none;
+	}
+
+#tabs li {
+	display:inline;
+	margin:0;
+	padding:0;
+	}
+
+#tabs a {
+	float:left;
+	background:url("tableft.gif") no-repeat left top;
+	margin:0;
+	padding:0 0 0 4px;
+	text-decoration:none;
+	}
+
+#tabs a span {
+	float:left;
+	display:block;
+	background:url("tabright.gif") no-repeat right top;
+	padding:5px 15px 4px 6px;
+	color:#D2691E;
+	}
+
+#tabs a span {float:none;}
+
+
+#tabs a:hover span {
+	color:#FFA500;
+	}
+
+#tabs a:hover {
+	background-position:0% -42px;
+	}
+
+#tabs a:hover span {
+	background-position:100% -42px;
+	}
+
+
+#menu {
+	width: 200px;
+	margin-top: 10px;
+	}
+	
+#menu li a {
+	text-decoration: none;
+	height: 32px;
+  	voice-family: "\"}\""; 
+  	voice-family: inherit;
+  	height: 24px;
+	}
+	
+#menu li a:link, #menu li a:visited {
+	color: #D2691E;
+	display: block;
+	background: url(menu.gif);
+	padding: 8px 0 0 20px;
+	}
+	
+#menu li a:hover {
+	color: #FFA500;
+	background: url(menu.gif) 0 -32px;
+	padding: 8px 0 0 25px;
+	}
+	
+#menu li a:active {
+	color: #fff;
+	background: url(menu.gif) 0 -64px;
+	padding: 8px 0 0 25px;
+	}

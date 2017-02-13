@@ -1,0 +1,166 @@
+
+<!--DOCTYPE html-->
+<html lang= "en">
+<head>
+ 
+		<meta charset="utf-8">	
+		<link rel="shortcut icon" href="images/favicon.ico">
+		<meta name="description" content="Discover the amazing health benifits and history of chocolate">
+  		<meta name="keywords" content="white chocolate, dark chocolate, make chocolate, variety chocolate">
+  		<meta name="author" content="Bushra Okal">
+		<title>ChocoLoves.com- Contact Us</title>
+	 		<link rel="stylesheet" type="text/css" href="styles/content.css">
+<!-- Javascript code Validation for Form Ends here --->
+<script type="text/javascript">
+
+function validateForm() {
+   if (document.forms["myform"]["fname"].value == "")
+	{
+        alert("First Name must be filled out");
+		return false;
+    }
+	if (document.forms["myform"]["lname"].value == "") {
+        alert("Last Name must be filled out");
+		return false;
+   	}
+	
+	  if (document.forms["myform"]["email"].value == "") {
+        alert("email must be filled out");
+		return false;
+    }
+	var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+			if(document.forms["myform"]["email"].value.match(mailformat))
+			{
+				return true;
+			}
+	else{
+			alert("You have entered an invalid email address!");
+			return false;
+			}
+	
+	  
+	}
+	 
+    
+</script>
+<!-- Javascript code Validation for Form Ends here --->
+</head>
+<header>
+
+</header>
+<body>
+<table width="70%" border="0" align="center">
+<tr> <td width="15%" valign="baseline"><img src="images/ChocolateLogo.JPG" alt="Logo" width="200" border="2" border-color="#444444" ></td><td>
+
+
+
+<table border="0" width="100%" align="justify">
+<tr><td><img src="images/ChocolateBanner.JPG" alt="Banner"  height="130px"><td></tr>
+<tr><td><div id="tabs">
+  <ul>
+    <li><a href="index.html"><span>Home</span></a></li>
+    <li><a href="AboutUs.html"><span>About Us </span></a></li>
+    <li><a href="Services.html"><span>Services </span></a></li>
+    <li><a href="Facts.html"><span>Facts </span></a></li>
+     <li><a href="ContactUs.html"><span>Contact </span></a></li>
+   </ul>
+</div></td></tr>
+
+</table>
+	
+
+</td></tr>
+<tr> <td width="20%"  height="350" valign="top" bgcolor="#FFFFFF">
+
+
+<aside>
+     <div id="menu">
+      <ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="AboutUs.html">About Us</a></li>
+		<li><a href="Services.html">Services</a></li>
+		<li><a href="Facts.html">Facts</a></li>
+		<li><a href="ContactUs.html">Contact Us</a></li>
+		</ul>
+		</div>
+</aside>
+
+
+</td><td valign="top">
+<!-- Content comes here --->
+
+<br>
+<form name="myform" method="get" action="Thankyou.html" onsubmit="return validateForm()" >
+<table width="450px">
+</tr>
+
+<tr>
+ <td valign="top">
+  <label for="first_name">First Name *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="fname" maxlength="50" size="30">
+ </td>
+</tr>
+ 
+<tr>
+ <td valign="top">
+  <label for="last_name">Last Name *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="lname" maxlength="50" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="email">Email Address *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="email" maxlength="80" size="30">
+ </td>
+ 
+</tr>
+<tr>
+ <td valign="top">
+  <label for="telephone">Telephone Number</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="telephone" maxlength="30" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="comments">Comments </label>
+ </td>
+ <td valign="top">
+  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+ </td>
+ 
+</tr>
+<tr>
+ <td colspan="2" style="text-align:center">
+ <input type="reset" value="Reset Form" name="submit"> <input type="submit" value="Submit">     
+ </td>
+</tr>
+</table>
+</form>
+
+
+
+
+<!-- Content Ends here --->
+</td> </tr>
+
+<tr><td colspan="2"> </td></tr>
+</table>
+
+
+
+
+
+
+</main>
+		<footer >
+				<p align="center"> &copy; 2017 Bushra Okal All RIGHTS RESERVED </p> 
+		</footer>
+</body>

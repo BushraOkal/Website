@@ -1,0 +1,94 @@
+
+<!--DOCTYPE html-->
+<html lang= "en">
+<head>
+ 
+		<meta charset="utf-8">	
+		<link rel="shortcut icon" href="images/favicon.ico">
+		<meta name="description" content="Discover the amazing health benifits and history of chocolate">
+  		<meta name="keywords" content="white chocolate, dark chocolate, make chocolate, variety chocolate">
+  		<meta name="author" content="Bushra Okal">
+		<title>ChocoLoves.com Welcomes you</title>
+	 		<link rel="stylesheet" type="text/css" href="styles/content.css">
+		<!-- Javascript code to read firstname and last name from url here --->
+		<script type="text/javascript">
+		function getParams() {
+			var idx = document.URL.indexOf('?');
+			var params = new Array();
+			if (idx != -1) {
+				var pairs = document.URL.substring(idx + 1, document.URL.length).split('&');
+				for (var i = 0; i < pairs.length; i++) {
+					nameVal = pairs[i].split('=');
+					params[nameVal[0]] = nameVal[1];
+				}
+			}
+			return params;
+		}
+
+		params = getParams();
+		firstname = unescape(params["fname"]);
+		lastname = unescape(params["lname"]);
+
+		//document.write("Thank You  " + firstname + "  " + lastname + "<br>");
+
+		//document.write("One of our team members will  contact you soon.");
+		</script>
+			<!-- Javascript code to read firstname and last name from url Ends here --->
+</head>
+<header>
+
+</header>
+<body>
+<table width="70%" border="0" align="center">
+<tr> <td width="15%" valign="baseline"><img src="images/ChocolateLogo.JPG" alt="Logo" width="200" border="2" border-color="#444444" ></td><td>
+
+<table border="0" width="100%" align="justify">
+<tr><td><img src="images/ChocolateBanner.JPG" alt="Banner"  height="130px"><td></tr>
+<tr><td><a href="index.html">Home</a>   |  <a href="AboutUs.html">About Us</a>|  <a href="Services.html">Services</a> | <a href="Facts.html">Facts</a>  | <a href="ContactUs.html">Contact Us</a></td></tr>
+
+</table>
+	
+
+</td></tr>
+<tr> <td width="20%"  height="350" valign="top" bgcolor="#FFFFFF">
+
+
+<aside>
+      <ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="AboutUs.html">About Us</a></li>
+		<li><a href="Services.html">Services</a></li>
+		<li><a href="Facts.html">Facts</a></li>
+		<li><a href="ContactUs.html">Contact Us</a></li>
+		</ul>
+</aside>
+
+
+</td><td valign="top">
+<!-- Content comes here --->
+<!-- Javascript code to display firstname and last name starts here --->
+
+<br> 
+<p align="center"></p><script type="text/javascript">
+
+document.write("Thank You  <b><i>" + firstname + "  "  +lastname + "</i></b><br>");
+
+document.write("One of our team members will  contact you soon.");
+	</script></p>
+<br>
+
+<!-- Javascript code to display firstname and last name ends here --->
+<!-- Content Ends here --->
+</td> </tr>
+
+
+</table>
+
+
+<main>
+
+</main>
+		<footer>
+				<p align="center"> &copy; 2017 Bushra Okal All RIGHTS RESERVED </p> 
+		</footer>
+</body>
